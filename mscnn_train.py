@@ -85,7 +85,7 @@ def train():
         steps = 100000
         avg_loss_1 = 0
 
-        for step in xrange(73050,steps):
+        for step in xrange(0,steps):
             if step < nums_train * 10:
                 # 开始10次迭代轮循按样本次序训练
                 num_batch = [divmod(step, nums_train)[1] + i for i in range(FLAGS.batch_size)]

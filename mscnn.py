@@ -91,7 +91,7 @@ class BatchNorm(object):
     """
     BN操作类
     """
-    def __init__(self, epsilon=1e-5, momentum=0.9, name="batch_norm"):
+    def __init__(self, epsilon=1e-1, momentum=0.9, name="batch_norm"):
         """
         初始化函数
         :param epsilon: 精度
